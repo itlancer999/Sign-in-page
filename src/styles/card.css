@@ -1,0 +1,117 @@
+.container {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  background-color: #fff;
+  height: 80vh;
+  width: 70vw;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.card__content {
+  flex: 1 1 0;
+  padding: 50px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-content: flex-start;
+}
+
+.card__header--title {
+  text-align: center;
+}
+
+
+.card__form {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  flex: 1;
+}
+
+.card__form--description {
+  /*color: $secondary-color-shadow;*/
+  font-size: 1rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.card__fields {
+  display: flex;
+  flex-flow: column;
+  margin: 2rem 0;
+}
+
+.card__terms {
+  /*color: $secondary-color-shadow;*/
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.card__footer {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.card__form--input {
+  border-radius: 5px;
+  margin: 5px;
+  border: 1.5px solid $grey;
+  padding: 10px;
+  /*background: $grey-light;*/
+  text-transform: capitalize;
+  height: 25px;
+  /*&::placeholder {
+    color: $grey
+  }*/
+}
+
+.card__button {
+  border-radius: 5px;
+  border: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  height: 45px;
+  min-width: 150px;
+  margin: 0.5rem;
+  flex-grow: 1;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+  /*&:hover {
+    transform: scale(1.05);
+  }*/
+}
+
+.card__button--primary {
+  /*background: $primary-color;
+  color: $white;*/
+}
+
+.card__button--secondary {
+  /*color: $primary-color;
+  background: $white;
+  border: 2px solid $primary-color;*/
+}
+
+
+.card__image {
+
+  display: flex;
+  flex: 1 1 0;
+  font-size: 0.5rem;
+  justify-content: center;
+}
+
+.card__image--credits {
+  color: #ffffff29;
+}
