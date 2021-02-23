@@ -1,0 +1,15 @@
+
+@media only screen and (max-width: 950px) {
+  .card {
+    flex-flow: column-reverse;
+  }
+  .card__header {
+    padding: 15px;
+  }
+  .card__image {
+    display: none;
+  }
+  .card__fields {
+    margin: 0;
+  }
+}

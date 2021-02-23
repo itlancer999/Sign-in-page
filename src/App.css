@@ -1,0 +1,14 @@
+.App{
+  display:flex;
+  height:100vh;
+}
+  .AppAside{
+  background:url('images/dribble.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  width:50%;
+}
+
+.AppForm{
+width:50%;
+}
