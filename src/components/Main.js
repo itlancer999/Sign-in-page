@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Form from '../components/Form.js';
 import Header from '../components/Header.js';
@@ -30,5 +31,3 @@ const Main = () => {
     </div>
   )
 }
-
-export default Main;
