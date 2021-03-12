@@ -1,3 +1,4 @@
+
 .container {
   display: flex;
   margin: 0;
@@ -39,7 +40,6 @@
 }
 
 .card__form--description {
-  /*color: $secondary-color-shadow;*/
   font-size: 1rem;
   margin: 1rem;
   text-align: center;
@@ -52,7 +52,7 @@
 }
 
 .card__terms {
-  /*color: $secondary-color-shadow;*/
+
   text-align: center;
   margin: 0.5rem;
 }
@@ -68,12 +68,10 @@
   margin: 5px;
   border: 1.5px solid $grey;
   padding: 10px;
-  /*background: $grey-light;*/
+
   text-transform: capitalize;
   height: 25px;
-  /*&::placeholder {
-    color: $grey
-  }*/
+ 
 }
 
 .card__button {
@@ -87,20 +85,7 @@
   flex-grow: 1;
   transition: all .2s ease-in-out;
   cursor: pointer;
-  /*&:hover {
-    transform: scale(1.05);
-  }*/
-}
 
-.card__button--primary {
-  /*background: $primary-color;
-  color: $white;*/
-}
-
-.card__button--secondary {
-  /*color: $primary-color;
-  background: $white;
-  border: 2px solid $primary-color;*/
 }
 
 
